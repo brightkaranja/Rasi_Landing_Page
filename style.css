@@ -216,7 +216,7 @@
     display: flex;
     gap: 2cm;
     background-color: rgb(29, 24, 24);
-    color: rgb(64, 61, 61);
+    color: white;
     padding: 1cm;
     font-size: 18px;
     height: 9cm;
@@ -488,14 +488,14 @@
         font-size: 20px;
         padding: 0.2cm;
         height: 2cm;
-        width: 10cm;
+        /* width: 10cm; */
     }
     .home{
         background-image: url(images/backgroungimage.png);
         background-size: cover;
         background-position: center;
         color: white;
-        height: 20cm;
+        height: 19cm;
         position: relative;
     }
     .header{
@@ -566,7 +566,8 @@
         font-size: 20px;
     }
     .screenprint{
-        display: flex;
+        /* display: flex; */
+        display: block;
         gap: 1.5cm;
         margin-top: 1cm;
         margin-left: 1cm;
@@ -588,7 +589,7 @@
         display: flex;
         gap: 3cm;
         margin-top: 2cm;
-        margin-left: 4.5cm;
+        margin-left: 1cm;
         font-size: 20px;
     }
     .print_techniques{
@@ -599,7 +600,7 @@
     }
     .print_types{
         /* display: flex; */
-        /* display: block; */
+        display: block;
         gap: 1cm;
         margin-top: 1cm;
         font-size: 19px;
@@ -614,16 +615,17 @@
     }
     .logo{
         display: flex;
-        gap: 7cm;
+        gap: 2cm;
         margin-top: 2cm;
-        margin-left: 9cm;
+        margin-left: 1cm;
     }
     .quality_print{
-        display: flex;
-        gap: 3cm;
+        /* display: flex; */
+        display: block;
+        gap: 1cm;
         background-color: rgb(237, 232, 225);
         font-size: 20px;
-        margin-left: 2cm;
+        margin-left: 1cm;
         padding: 1cm;
     }
     #star{
@@ -636,7 +638,7 @@
         display: flex;
         gap: 2cm;
         margin-top: 1.5cm;
-        margin-left: 5cm;
+        margin-left: 1cm;
         
     }
     .showcasing{
@@ -645,16 +647,17 @@
         font-size: 20px;
     }
     .our_works{
-        display: flex;
+        /* display: flex; */
+        display: block;
         gap: 0.9cm;
-        margin-left: 3cm;
+        margin-left: 1cm;
     }
     #workpics{
         width: 12cm;
     }
     #homepic{
-        width: 30cm;
-        margin-left: 3cm;
+        width: 22cm;
+        margin-left: 1cm;
     }
     .location{
         text-align: center;
@@ -663,19 +666,19 @@
         margin-bottom: 1cm;
     }
     #map_pic{
-        width: 39cm;
-        margin-left: 3cm;
+        width: 22cm;
+        margin-left: 1cm;
     }
     .contact_us{
         background-color: white;
         border-width: 5cm;
-        height: 13cm;
-        width: 10cm;
+        height: 4cm;
+        width: 3cm;
         position: absolute;
         top: 139cm;
         padding: 1cm;
         /* margin-top: -18cm; */
-        margin-left: 8cm;
+        margin-left: 2cm;
         font-size: 20px;
     }
     .phone_number{
@@ -699,10 +702,10 @@
     }
     .footer{
         display: flex;
-        gap: 2cm;
+        gap: 1cm;
         background-color: rgb(29, 24, 24);
-        color: rgb(64, 61, 61);
-        padding: 1cm;
+        color: white;
+        /* padding: 1cm; */
         font-size: 18px;
         height: 9cm;
         /* margin-top: 9cm; */
